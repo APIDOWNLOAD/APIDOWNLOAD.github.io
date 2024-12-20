@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Asignar eventos a los botones
     document.querySelector(".inicio").addEventListener("click", () => {
       activateTab("inicio", "pestaña-inicio");
+      console.log("pagina inicio cargada con exito");
     });
     document.querySelector(".programas").addEventListener("click", () => {
       activateTab("programas", "pestaña-programas");
