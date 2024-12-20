@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: start;
-    width: 1358px;
+    width: 1341px;
     height: 70px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 1px 12px 0px #9c9b9b;
@@ -22,7 +22,7 @@ body{
     height: 70px;
     margin-top: 0px;
     margin-left: 10px;
-    background-image: url(LOGO.png);
+    background-image: url(IMAGENES/LOGO.png);
 }
 .inicio {
     width: 120px;
@@ -133,8 +133,8 @@ body{
     display: flex;
     justify-content: start;
     align-items: start;
-    width: 1300px;
-    height: 525px;
+    width: 1290px;
+    height: 825px;
     background-color: #ffffff;
     margin-top: 20px;
     margin-left: 30px;
@@ -190,7 +190,7 @@ body{
     justify-content: center;
     width: 180px;
     height: 200px;
-    background-image: url(WMO.png);
+    background-image: url(IMAGENES/WMO.png);
     background-size:cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -198,7 +198,9 @@ body{
     margin-left: 0px;
     border: 1px solid grey;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
-    
+}
+.wmo:hover{
+    transform:scale(1.01) ;
 }
 .nombrewmo{
     margin-top: 5px;
@@ -226,4 +228,169 @@ body{
 }
 .wmo-boton:active{
     transform: scale(0.9);
+}
+.mensaje-wmo{
+    display: none;
+    width: 200px;
+    height: 110px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-70%);
+      background-color: rgba(0, 0, 0, 0.46);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.wmo:hover .mensaje-wmo{
+    display: block;
+}
+/*activatdor hack*/
+.act{
+    justify-content: center;
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 180px;
+    height: 200px;
+    background-image: url(IMAGENES/act.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border: 1px solid grey;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+    
+}
+.act:hover{
+    transform:scale(1.02) ;
+}
+.nombreact{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Concert One", sans-serif ;
+}
+.act-boton{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+}
+.act-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.act-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-act{
+    display: none;
+    width: 200px;
+    height: 80px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-99%);
+      background-color: rgba(0, 0, 0, 0.46);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.act:hover .mensaje-act{
+    display: block;
+}
+/*optimizer setup*/
+.opt{
+    justify-content: center;
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 180px;
+    height: 200px;
+    background-image: url(IMAGENES/optimizer.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border: 1px solid grey;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+    
+}
+.opt:hover{
+    transform:scale(1.02) ;
+}
+.nombreopt{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Concert One", sans-serif ;
+}
+.opt-boton{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+}
+.opt-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.opt-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-opt{
+    display: none;
+    width: 200px;
+    height: 130px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-55%);
+      background-color: rgba(0, 0, 0, 0.46);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.opt:hover .mensaje-opt{
+    display: block;
 }
