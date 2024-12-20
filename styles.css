@@ -22,7 +22,7 @@ body{
     height: 70px;
     margin-top: 0px;
     margin-left: 10px;
-    background-image: url(IMAGENES/LOGO.png);
+    background-image: url(1-IMAGENES/LOGO.png);
 }
 .inicio {
     width: 120px;
@@ -130,9 +130,9 @@ body{
 .pestaña-programas{
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flexbox;
     justify-content: start;
-    align-items: start;
+    justify-content: flex-start;
     width: 1290px;
     height: 825px;
     background-color: #ffffff;
@@ -190,7 +190,7 @@ body{
     justify-content: center;
     width: 180px;
     height: 200px;
-    background-image: url(IMAGENES/WMO.png);
+    background-image: url(1-IMAGENES/WMO.png);
     background-size:cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -236,7 +236,7 @@ body{
       position: absolute;
       top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
       left: 109%; /* Coloca el mensaje fuera al lado derecho */
-      transform: translateY(-70%);
+      transform: translateY(-75%);
       background-color: rgba(0, 0, 0, 0.46);
       color: white;
       padding: 8px 12px;
@@ -260,7 +260,7 @@ body{
     justify-content: center;
     width: 180px;
     height: 200px;
-    background-image: url(IMAGENES/act.jpg);
+    background-image: url(1-IMAGENES/act.jpg);
     background-size:contain;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -331,7 +331,7 @@ body{
     justify-content: center;
     width: 180px;
     height: 200px;
-    background-image: url(IMAGENES/optimizer.png);
+    background-image: url(1-IMAGENES/optimizer.png);
     background-size:contain;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -378,7 +378,7 @@ body{
       position: absolute;
       top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
       left: 109%; /* Coloca el mensaje fuera al lado derecho */
-      transform: translateY(-55%);
+      transform: translateY(-65%);
       background-color: rgba(0, 0, 0, 0.46);
       color: white;
       padding: 8px 12px;
