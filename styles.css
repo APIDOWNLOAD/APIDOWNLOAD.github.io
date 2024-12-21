@@ -131,8 +131,8 @@ body{
     margin: 0;
     padding: 0;
     display: flexbox;
-    justify-content: start;
     justify-content: flex-start;
+    flex-direction:column;
     width: 1290px;
     height: 825px;
     background-color: #ffffff;
@@ -193,7 +193,7 @@ body{
     background-image: url(1-IMAGENES/WMO.png);
     background-size:cover;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-top: 60px;
     margin-left: 0px;
     border: 1px solid grey;
@@ -260,10 +260,11 @@ body{
     justify-content: center;
     width: 180px;
     height: 200px;
-    background-image: url(1-IMAGENES/act.jpg);
+    background-image: url(1-IMAGENES/act.png);
     background-size:contain;
+    background-position: center;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-top: 60px;
     margin-left: 50px;
     border: 1px solid grey;
@@ -334,7 +335,7 @@ body{
     background-image: url(1-IMAGENES/optimizer.png);
     background-size:contain;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-top: 60px;
     margin-left: 50px;
     border: 1px solid grey;
@@ -393,4 +394,27 @@ body{
 }
 .opt:hover .mensaje-opt{
     display: block;
+}
+
+.caja-windows{
+    display: flex;
+    width: 1290px;
+    height: 300px;
+}
+
+.documentos{
+    width: 20px;
+    height: 10px;
+    font-family: "Bebas Neue", serif;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+.caja-documentos{
+    display: flex;
+    width: 1290px;
+    height: 300px;
 }
