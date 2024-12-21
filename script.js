@@ -26,12 +26,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     document.querySelector(".programas").addEventListener("click", () => {
       activateTab("programas", "pestaña-programas");
+      console.log("pagina programas cargada con exito");
     });
     document.querySelector(".juegos").addEventListener("click", () => {
       activateTab("juegos", "pestaña-juegos");
+      console.log("pagina juegos cargada con exito");
     });
     document.querySelector(".androit").addEventListener("click", () => {
       activateTab("androit", "pestaña-androit");
+      console.log("pagina androit cargada con exito");
     });
   });
   
