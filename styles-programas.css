@@ -12,33 +12,7 @@
     box-shadow: 0px 1px 12px 0px #9c9b9b;
     border-radius: 15px;
 }
-/**.pestaña-juegos{
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    width: 1300px;
-    height: 525px;
-    background-color: #ffffff;
-    margin-top: 20px;
-    margin-left: 30px;
-    box-shadow: 0px 1px 12px 0px #9c9b9b;
-    border-radius: 10px;
-    border: 1px solid rgb(20, 125, 229);
-}
-.pestaña-androit{
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    width: 1300px;
-    height: 525px;
-    background-color: #ffffff;
-    margin-top: 20px;
-    margin-left: 30px;
-    box-shadow: 0px 1px 12px 0px #9c9b9b;
-    border-radius: 10px;
-    border: 1px solid rgb(20, 125, 229);
-}
- **/   
+
 .menu button.active {
     box-shadow: 0px 1px 10px 0px #258bf1;
     color: #258bf1;
@@ -66,8 +40,8 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    margin-top: 60px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
     border: 0px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
 }
@@ -138,7 +112,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 50px;
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
@@ -210,7 +184,7 @@
     background-size:contain;
     background-repeat: no-repeat;
     border-radius: 20px;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 50px;
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
@@ -273,8 +247,9 @@
 
 .caja-windows{
     display: flex;
+    margin-left: 40px;
     width: 1290px;
-    height: 300px;
+    height: 240px;
 }
 
 .documentos{
@@ -291,7 +266,9 @@
 .caja-documentos{
     display: flex;
     width: 1290px;
-    height: 300px;
+    height: 240px;
+    margin-left: 40px;
+    margin-top: 10px;
 }
 
 /*ADOBE RIDER*/
@@ -307,7 +284,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    margin-top: 60px;
+    margin-top: 0px;
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
     
@@ -380,7 +357,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    margin-top: 60px;
+    margin-top: 0px;
     margin-left: 50px;
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
