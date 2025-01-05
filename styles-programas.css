@@ -1,0 +1,442 @@
+.pestaña-programas{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    justify-content: flex-start;
+    flex-direction:column;
+    width: 1300px;
+    height: 825px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 1px 12px 0px #9c9b9b;
+    border-radius: 15px;
+}
+/**.pestaña-juegos{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 1300px;
+    height: 525px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 1px 12px 0px #9c9b9b;
+    border-radius: 10px;
+    border: 1px solid rgb(20, 125, 229);
+}
+.pestaña-androit{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 1300px;
+    height: 525px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 1px 12px 0px #9c9b9b;
+    border-radius: 10px;
+    border: 1px solid rgb(20, 125, 229);
+}
+ **/   
+.menu button.active {
+    box-shadow: 0px 1px 10px 0px #258bf1;
+    color: #258bf1;
+}
+/*WINDOWS*/
+.windows{
+    width: 10px;
+    height: 10px;
+    font-family: "Bebas Neue", serif;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+/*WISE MEMORY*/
+.wmo{
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 180px;
+    height: 210px;
+    background-image: url(1-IMAGENES/WMO.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    border: 0px;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+}
+.wmo:hover{
+    transform:scale(1.01) ;
+}
+.nombrewmo{
+    margin-top: 8px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-family:monospace ;
+}
+.wmo-boton{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 0px solid gray;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+    background-color: #dcdfe1;
+}
+.wmo-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.wmo-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-wmo{
+    display: none;
+    width: 200px;
+    height: 110px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-75%);
+      background-color: rgba(0, 0, 0, 0.706);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.wmo:hover .mensaje-wmo{
+    display: block;
+}
+/*activatdor hack*/
+.act{
+    justify-content: center;
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 180px;
+    height: 210px;
+    background-image: url(1-IMAGENES/act.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border: 1px;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+    
+}
+.act:hover{
+    transform:scale(1.01) ;
+}
+.nombreact{
+    margin-top: 8px;
+    margin-left: 12px;
+    font-size: 22px;
+    font-family:monospace ;
+}
+.act-boton{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+    background-color: #dcdfe1;
+}
+.act-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.act-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-act{
+    display: none;
+    width: 200px;
+    height: 80px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-99%);
+      background-color: rgba(0, 0, 0, 0.69);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.act:hover .mensaje-act{
+    display: block;
+}
+/*optimizer setup*/
+.opt{
+    justify-content: center;
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 180px;
+    height: 210px;
+    background-image: url(1-IMAGENES/optimizer.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border: 1px;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+    
+}
+.opt:hover{
+    transform:scale(1.01) ;
+}
+.nombreopt{
+    margin-top: 8px;
+    margin-left: 35px;
+    font-size: 22px;
+    font-family:monospace ;
+}
+.opt-boton{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+    background-color: #dcdfe1;
+}
+.opt-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.opt-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-opt{
+    display: none;
+    width: 200px;
+    height: 130px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-65%);
+      background-color: rgba(0, 0, 0, 0.713);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.opt:hover .mensaje-opt{
+    display: block;
+}
+
+.caja-windows{
+    display: flex;
+    width: 1290px;
+    height: 300px;
+}
+
+.documentos{
+    width: 20px;
+    height: 10px;
+    font-family: "Bebas Neue", serif;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+.caja-documentos{
+    display: flex;
+    width: 1290px;
+    height: 300px;
+}
+
+/*ADOBE RIDER*/
+.adb{
+    justify-content: center;
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 180px;
+    height: 210px;
+    background-image: url(1-IMAGENES/adb.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 60px;
+    border: 1px;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+    
+}
+.adb:hover{
+    transform:scale(1.01) ;
+}
+.nombreadb{
+    margin-top: 8px;
+    margin-left: 35px;
+    font-size: 22px;
+    font-family:monospace ;
+}
+.adb-boton{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+    background-color: #dcdfe1;
+}
+.adb-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.adb-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-adb{
+    display: none;
+    width: 200px;
+    height: 130px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-65%);
+      background-color: rgba(0, 0, 0, 0.713);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.adb:hover .mensaje-adb{
+    display: block;
+}
+
+/*LIBRE OFFICE*/
+.lbr{
+    justify-content: center;
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 180px;
+    height: 210px;
+    background-image: url(1-IMAGENES/lbr.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border: 1px;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+    
+}
+.lbr:hover{
+    transform:scale(1.01) ;
+}
+.nombrelbr{
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 22px;
+    font-family:monospace ;
+}
+.lbr-boton{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+    background-color: #dcdfe1;
+}
+.lbr-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.lbr-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-lbr{
+    display: none;
+    width: 215px;
+    height: 130px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-65%);
+      background-color: rgba(0, 0, 0, 0.713);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.lbr:hover .mensaje-lbr{
+    display: block;
+}
