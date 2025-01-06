@@ -19,7 +19,7 @@
 }
 /*WINDOWS*/
 .windows{
-    width: 10px;
+    width: 400px;
     height: 10px;
     font-family: "Bebas Neue", serif;
     font-style: normal;
@@ -245,9 +245,83 @@
     display: block;
 }
 
+/*WINRAR*/
+.winr{
+    justify-content: center;
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 180px;
+    height: 210px;
+    background-image: url(1-IMAGENES/winr.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 1px;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+    
+}
+.winr:hover{
+    transform:scale(1.01) ;
+}
+.nombrewinr{
+    margin-top: 8px;
+    margin-left: 55px;
+    font-size: 22px;
+    font-family:monospace ;
+}
+.winr-boton{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+    background-color: #dcdfe1;
+}
+.winr-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.winr-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-winr{
+    display: none;
+    width: 200px;
+    height: 130px;
+      position: absolute;
+      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-65%);
+      background-color: rgba(0, 0, 0, 0.713);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.winr:hover .mensaje-winr{
+    display: block;
+}
+
 .caja-windows{
     display: flex;
-    margin-left: 40px;
+    margin-left: 50px;
     width: 1290px;
     height: 240px;
 }
@@ -267,7 +341,7 @@
     display: flex;
     width: 1290px;
     height: 240px;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 

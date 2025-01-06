@@ -16,7 +16,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: flex;
     justify-content: start;
     align-items: start;
-    width: 100%;
+    width: 1360px;
     height: 70px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 1px 12px 0px #9c9b9b;
