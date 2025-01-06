@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Oswald:wght@200..700&display=swap');
+
 body{
     display: flexbox;
     justify-content: start;
@@ -29,6 +30,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: 10px;
     background-image: url(1-IMAGENES/LOGO.png);
 }
+/**BOTONES DEL MENU**/
 .inicio {
     width: 120px;
     height: 50px;
@@ -36,7 +38,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: 50px;
     margin-right: 30px;
     border-radius: 10px;
-    border: 1px solid rgb(185, 185, 185);
+    border: 0px solid rgb(185, 185, 185);
     background-color: rgba(255, 255, 255, 0.937);
     letter-spacing: 2px; 
     cursor: pointer; 
@@ -58,7 +60,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: 50px;
     margin-right: 30px;
     border-radius: 10px;
-    border: 1px solid rgb(185, 185, 185);
+    border: 0px solid rgb(185, 185, 185);
     background-color: rgba(255, 255, 255, 0.937);
     letter-spacing: 2px; 
     cursor: pointer; 
@@ -81,13 +83,12 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: 50px;
     margin-right: 30px;
     border-radius: 10px;
-    border: 1px solid rgb(185, 185, 185);
+    border: 0px solid rgb(185, 185, 185);
     background-color: rgba(255, 255, 255, 0.937);
     letter-spacing: 2px; 
     cursor: pointer; 
     font-size: 20px;
     font-family: "Concert One", sans-serif;
-    border-radius: 10px;
     box-shadow: 0px 0px 8px 0px #b9b9b9;
     transition: box-shadow 0.5s ease, color 1s ease; /* Propiedad animada con duración y tipo */
 }
@@ -103,7 +104,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: 50px;
     margin-right: 30px;
     border-radius: 10px;
-    border: 1px solid rgb(185, 185, 185);
+    border: 0px solid rgb(185, 185, 185);
     background-color: rgba(255, 255, 255, 0.937);
     letter-spacing: 2px; 
     cursor: pointer; 
@@ -118,7 +119,26 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     box-shadow: 0px 1px 10px 0px #258bf1;
     color: #258bf1;
 }
-
+.perfil{
+    display: flex;
+    align-content: center;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 220px;
+    border-radius: 10px;
+    border: 0px;
+    background-image:url(1-IMAGENES/btn-contact.png);
+    background-position: center;
+    background-size: contain;
+    box-shadow: 0px 0px 8px 0px #b9b9b9;
+    transition: box-shadow 0.5s ease, color 1s ease; 
+}
+.perfil:hover{
+    box-shadow: 0px 1px 10px 0px #258bf1;
+    color: #258bf1;
+}
+/**PESTAÑA INICIO**/
 .pestaña-inicio{
     display: flex;
     justify-content: start;
