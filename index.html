@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles-principal.css">
   <link rel="stylesheet" href="styles-programas.css">
   <link rel="stylesheet" href="styles-juegos.css">
-  <link rel="stylesheet" href="styles-juegos.css">
+  <link rel="stylesheet" href="style-androit.css">
 </head>
 <body>
   <div class="menu">
@@ -24,43 +24,50 @@
   
   <!--PESTAÑA PROGRAMAS-->
   <div class="pestaña-programas">
-    <p class="windows">|WINDOWS</p>
+    <p class="windows">|UTILIDADES DE WINDOWS</p>
     <!--SECCION WINDOWS -->
     <div class="caja-windows">
       
         <div class="wmo"><!--WISE MEMORY OPTIMIZER-->
         <p class="nombrewmo">WISE MEMORY</p>
-        <button class="wmo-boton"  onclick="window.location.href='https://www.mediafire.com/file/8mfkxwpll8lgs83/WMOSetup_4.2.2.128.exe/file'" target="_blank" >DESCARGAR</button>
+        <button class="wmo-boton"  onclick="wmolink()">DESCARGAR</button>
         <div class="mensaje-wmo">ESTE PROGRAMA SIRVE PARA OPTIMIZAR LA RAM DE TU PC PARA OPTENER UN MEJOR RENDIMIENTO.</div>
-          </div>
+        </div>
         <div class="act"><!--ACTIVADOR DE WINDOWS Y OFFICE-->
         <p class="nombreact">ACTIVADOR WIN</p>
-        <button class="act-boton"  onclick="window.location.href='https://www.mediafire.com/file/grj18sse7uro5wq/Activador_todos_Windows_y_office_Act_v4.0.0.rar/file'" target="_blank" >DESCARGAR</button>
+        <button class="act-boton"  onclick="actlink()">DESCARGAR</button>
       <div class="mensaje-act">SIRVE PARA ACTIVAR TODOS LOS WINDOWS Y OFFICE </div>
-          </div>
+        </div>
         <div class="opt"><!--OPTIMIZER SETUP-->
         <p class="nombreopt">OPTIMIZER</p>
-        <button class="opt-boton" onclick="window.location.href='https://www.mediafire.com/file/14fbkq439ur71mj/Optimizer-16.5.exe/file'" target="_blank" >DESCARGAR</button>
+        <button class="opt-boton" onclick="optlink()">DESCARGAR</button>
       <div class="mensaje-opt">ES UTIL PARA DESCTIVAR FUNCIONES DE WINDOWS, PUEDE LIMPIAR EL PC Y DESCARGAR PROGRAMAS.</div>
-      </div>
+        </div>
+        <div class="winr"><!--WINRAR-->
+          <p class="nombrewinr">WINRAR</p>
+          <button class="winr-boton" onclick="winrlink()">DESCARGAR</button>
+          <div class="mensaje-winr">ES UTIL PARA DESCTIVAR FUNCIONES DE WINDOWS, PUEDE LIMPIAR EL PC Y DESCARGAR PROGRAMAS.</div>
+        </div>
     </div>
     <p class="documentos">|DOCUMENTOS</p>
     <!--SECCION DOCUMENTOS--> 
     <div class="caja-documentos">
         <div class="adb"><!--ADOBE RIDER-->
           <p class="nombreadb">ADOBE RIDER</p>
-          <button class="adb-boton" onclick="window.location.href='https://www.mediafire.com/file/swq8m0tfy487q7z/Adobe_Rider.rar/file'" target="_blank">DESCARGAR</button>
+          <button class="adb-boton" onclick="adblink()">DESCARGAR</button>
           <div class="mensaje-adb">  ES UN SOFTWARE GRATUITO QUE PERMITE VISUALIZAR, IMPRIMIR, FIRMAR, COMPARTIR, ANOTAR Y BUSCAR EN ARCHIVOS PDF </div>
         </div>
         <div class="lbr"><!--libre office-->
           <p class="nombrelbr">LIBRE OFFICE</p>
-          <button class="lbr-boton"><a href="https://www.google.com" target="_blank" class="btn"></a>DESCARGAR</button>
+          <button class="lbr-boton" onclick="lbrlink()">DESCARGAR</button>
           <div class="mensaje-lbr">ES UNA ALTERNATIVA GRATUITA DE OFFICE QUE PERMITE CREAR DOCUMENTOS,DIAPOCITIVAS,HOJAS DE CALCULO ECT,DE FORMA SENCILLA</div>
         </div>
         
     </div>
   </div>
 
+
+  
 
   <div class="pestaña-juegos">
     <h1 class="juegos-titulo">  proximamente juegos</h1>
@@ -70,5 +77,6 @@
   </div>
 <!--CONEXION CON JAVASCRIPT-->
   <script src="script-principal.js"></script>
+  <script src="links.js"></script>
 </body>
 </html>
