@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
 .pestaña-programas{
     margin: 0;
     padding: 0;
@@ -50,16 +51,17 @@
 }
 .nombrewmo{
     margin-top: 8px;
-    margin-left: 25px;
-    font-size: 22px;
-    font-family:monospace ;
+    margin-left: 28px;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 2px;
 }
 .wmo-boton{
     width: 150px;
     height: 30px;
     font-family:sans-serif;
     font-size: 15px;
-    margin-top: 110px;
+    margin-top: 100px;
     margin-left: 15px;
     border-radius: 20px;
     border: 0px solid gray;
@@ -78,8 +80,8 @@
 }
 .mensaje-wmo{
     display: none;
-    width: 200px;
-    height: 110px;
+    width: 180px;
+    height: 120px;
       position: absolute;
       top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
       left: 109%; /* Coloca el mensaje fuera al lado derecho */
@@ -90,7 +92,7 @@
       border-radius: 5px;
       font-size: 14px;
       white-space: nowrap;
-      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      box-shadow: 0px 4px 6px rgba(75, 147, 240, 0.746);
       white-space: normal;
       font-size: 17px;
       font-family: "Concert One", sans-serif;
@@ -123,16 +125,17 @@
 }
 .nombreact{
     margin-top: 8px;
-    margin-left: 12px;
-    font-size: 22px;
-    font-family:monospace ;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
 }
 .act-boton{
     width: 150px;
     height: 30px;
     font-family:sans-serif;
     font-size: 15px;
-    margin-top: 110px;
+    margin-top: 100px;
     margin-left: 15px;
     border-radius: 20px;
     border: 1px;
@@ -151,7 +154,7 @@
 }
 .mensaje-act{
     display: none;
-    width: 200px;
+    width: 190px;
     height: 80px;
       position: absolute;
       top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
@@ -163,7 +166,7 @@
       border-radius: 5px;
       font-size: 14px;
       white-space: nowrap;
-      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      box-shadow: 0px 4px 6px rgba(49, 136, 249, 0.583);
       white-space: normal;
       font-size: 17px;
       font-family: "Concert One", sans-serif;
@@ -180,9 +183,10 @@
     justify-content: center;
     width: 180px;
     height: 210px;
-    background-image: url(1-IMAGENES/optimizer.png);
+    background-image: url(1-IMAGENES/opt.jpg);
     background-size:contain;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 50px;
@@ -195,16 +199,17 @@
 }
 .nombreopt{
     margin-top: 8px;
-    margin-left: 35px;
-    font-size: 22px;
-    font-family:monospace ;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
 }
 .opt-boton{
     width: 150px;
     height: 30px;
     font-family:sans-serif;
     font-size: 15px;
-    margin-top: 110px;
+    margin-top: 100px;
     margin-left: 15px;
     border-radius: 20px;
     border: 1px;
@@ -235,7 +240,7 @@
       border-radius: 5px;
       font-size: 14px;
       white-space: nowrap;
-      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      box-shadow: 0px 4px 6px rgba(54, 138, 249, 0.719);
       white-space: normal;
       font-size: 17px;
       font-family: "Concert One", sans-serif;
@@ -270,15 +275,16 @@
 .nombrewinr{
     margin-top: 8px;
     margin-left: 55px;
-    font-size: 22px;
-    font-family:monospace ;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
 }
 .winr-boton{
     width: 150px;
     height: 30px;
     font-family:sans-serif;
     font-size: 15px;
-    margin-top: 110px;
+    margin-top: 100px;
     margin-left: 15px;
     border-radius: 20px;
     border: 1px;
@@ -297,8 +303,8 @@
 }
 .mensaje-winr{
     display: none;
-    width: 200px;
-    height: 130px;
+    width: 190px;
+    height: 150px;
       position: absolute;
       top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
       left: 109%; /* Coloca el mensaje fuera al lado derecho */
@@ -309,7 +315,7 @@
       border-radius: 5px;
       font-size: 14px;
       white-space: nowrap;
-      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      box-shadow: 0px 4px 6px rgba(75, 150, 249, 0.658);
       white-space: normal;
       font-size: 17px;
       font-family: "Concert One", sans-serif;
@@ -321,6 +327,7 @@
 
 .caja-windows{
     display: flex;
+    flex-direction: row;
     margin-left: 50px;
     width: 1290px;
     height: 240px;
@@ -369,15 +376,16 @@
 .nombreadb{
     margin-top: 8px;
     margin-left: 35px;
-    font-size: 22px;
-    font-family:monospace ;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
 }
 .adb-boton{
     width: 150px;
     height: 30px;
     font-family:sans-serif;
     font-size: 15px;
-    margin-top: 110px;
+    margin-top: 100px;
     margin-left: 15px;
     border-radius: 20px;
     border: 1px;
@@ -408,7 +416,7 @@
       border-radius: 5px;
       font-size: 14px;
       white-space: nowrap;
-      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      box-shadow: 0px 4px 6px rgba(70, 147, 248, 0.692);
       white-space: normal;
       font-size: 17px;
       font-family: "Concert One", sans-serif;
@@ -442,16 +450,17 @@
 }
 .nombrelbr{
     margin-top: 8px;
-    margin-left: 15px;
-    font-size: 22px;
-    font-family:monospace ;
+    margin-left: 29px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
 }
 .lbr-boton{
     width: 150px;
     height: 30px;
     font-family:sans-serif;
     font-size: 15px;
-    margin-top: 110px;
+    margin-top: 100px;
     margin-left: 15px;
     border-radius: 20px;
     border: 1px;
@@ -482,7 +491,7 @@
       border-radius: 5px;
       font-size: 14px;
       white-space: nowrap;
-      box-shadow: 0px 4px 6px rgba(26, 121, 246, 0.393);
+      box-shadow: 0px 4px 6px rgba(76, 148, 243, 0.691);
       white-space: normal;
       font-size: 17px;
       font-family: "Concert One", sans-serif;
