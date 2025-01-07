@@ -114,8 +114,6 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 40px;
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
     
@@ -188,8 +186,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 40px;
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
     
@@ -263,8 +259,6 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 40px;
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
     
@@ -326,20 +320,28 @@
 }
 
 .caja-windows{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 40px;  
     margin-left: 50px;
-    width: 1290px;
+    width: 90%;
     height: 240px;
 }
+.caja-windows>div{
+    margin: 0;
+    margin-top: 15px;
+}
+
+
+
 
 .documentos{
-    width: 20px;
+    width: 200px;
     height: 10px;
     font-family: "Bebas Neue", serif;
     font-style: normal;
     font-size: 35px;
-    margin-top: 0px;
+    margin-top: 1px;
     margin-left: 30px;
     letter-spacing: 2px;
 }
@@ -499,4 +501,22 @@
 }
 .lbr:hover .mensaje-lbr{
     display: block;
+}
+
+.prueba{
+    justify-content: center;
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    width: 165px;
+    height: 210px;
+    background-image: url(1-IMAGENES/adb.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /*margin-top: 10px;
+    margin-left: 40px;*/
+    border: 1px;
+    box-shadow:inset 0px 1px 7px 0px #9c9b9b;
 }
