@@ -1,6 +1,7 @@
 //LINK WISE MEMORY 
 function wmolink(){
     window.open("https://www.mediafire.com/file/8mfkxwpll8lgs83/WMOSetup_4.2.2.128.exe/file","_blank");
+    //alert("REDIRIGIENDO A MEDIAFIRE")
 }
 //LINK ACTIVADOR WIN
 function actlink(){
