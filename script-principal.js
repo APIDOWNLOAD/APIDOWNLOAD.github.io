@@ -16,25 +16,25 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector(`.${tabClass}`).style.display = "flex";
     }
   
-    // Configurar botón "Inicio" como activo por defecto
+    // Configurar botón Inicio como activo cuando inicie
     activateTab("inicio", "pestaña-inicio");
   
     // Asignar eventos a los botones
     document.querySelector(".inicio").addEventListener("click", () => {
       activateTab("inicio", "pestaña-inicio");
-      console.log("pagina inicio cargada con exito");
+      
     });
     document.querySelector(".programas").addEventListener("click", () => {
       activateTab("programas", "pestaña-programas");
-      console.log("pagina programas cargada con exito");
+      
     });
     document.querySelector(".juegos").addEventListener("click", () => {
       activateTab("juegos", "pestaña-juegos");
-      console.log("pagina juegos cargada con exito");
+      
     });
     document.querySelector(".androit").addEventListener("click", () => {
       activateTab("androit", "pestaña-androit");
-      console.log("pagina androit cargada con exito");
+      
     });
   });
   
