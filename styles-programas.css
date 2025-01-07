@@ -300,7 +300,7 @@
     width: 190px;
     height: 150px;
       position: absolute;
-      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      top: 55%; /* Centra verticalmente el mensaje respecto al contenedor */
       left: 109%; /* Coloca el mensaje fuera al lado derecho */
       transform: translateY(-65%);
       background-color: rgba(0, 0, 0, 0.713);
@@ -443,6 +443,7 @@
     border-radius: 20px;
     margin-top: 0px;
     margin-left: 50px;
+    background-color: #ffffff;
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
     
@@ -481,10 +482,10 @@
 }
 .mensaje-lbr{
     display: none;
-    width: 215px;
-    height: 130px;
+    width: 270px;
+    height: 110px;
       position: absolute;
-      top: 50%; /* Centra verticalmente el mensaje respecto al contenedor */
+      top: 45%; /* Centra verticalmente el mensaje respecto al contenedor */
       left: 109%; /* Coloca el mensaje fuera al lado derecho */
       transform: translateY(-65%);
       background-color: rgba(0, 0, 0, 0.713);
@@ -503,14 +504,14 @@
     display: block;
 }
 
-.prueba{
+.rufus{
     justify-content: center;
     display: flexbox;
     align-items: start;
     justify-content: center;
     width: 165px;
     height: 210px;
-    background-image: url(1-IMAGENES/adb.jpg);
+    background-image: url(1-IMAGENES/rufus.png);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -519,4 +520,59 @@
     margin-left: 40px;*/
     border: 1px;
     box-shadow:inset 0px 1px 7px 0px #9c9b9b;
+}
+.rufus:hover{
+    transform:scale(1.01) ;
+}
+.nombrerufus{
+    margin-top: 8px;
+    margin-left: 36px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
+}
+.rufus-boton{
+    width: 135px;
+    height: 30px;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-top: 100px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px;
+    transition: box-shadow 0.7s ,background-color 0.7s;
+    cursor: pointer;
+    background-color: #dcdfe1;
+}
+.rufus-boton:hover{
+  background-color: hsl(209, 100%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: hsl(209, 100%, 60%) 0px 7px 29px 0px;
+  border: 0px;
+}
+.rufus-boton:active{
+    transform: scale(0.9);
+}
+.mensaje-rufus{
+    display: none;
+    width: 225px;
+    height: 120px;
+      position: absolute;
+      top: 45%; /* Centra verticalmente el mensaje respecto al contenedor */
+      left: 109%; /* Coloca el mensaje fuera al lado derecho */
+      transform: translateY(-65%);
+      background-color: rgba(0, 0, 0, 0.713);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0px 4px 6px rgba(76, 148, 243, 0.691);
+      white-space: normal;
+      font-size: 17px;
+      font-family: "Concert One", sans-serif;
+      letter-spacing: 1px;
+}
+.rufus:hover .mensaje-rufus{
+    display: block;
 }
