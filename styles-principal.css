@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Oswald:wght@200..700&display=swap');
 
 body{
-    display: flexbox;
-    justify-content: start;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(1,100%);
     background-color: #e5ddd5;
     margin: 0%;
     overflow: hidden;
