@@ -7,13 +7,9 @@ body{
     grid-template-columns: repeat(1,100%);
     background-color: #e5ddd5;
     margin: 0%;
-    overflow: hidden;
-    overflow-y: scroll; 
-    scrollbar-width: none;
+    overflow-x: hidden;
 }
-html::-webkit-scrollbar, body::-webkit-scrollbar {
-    display: none;
-  }
+
 .menu{
     display: flex;
     justify-content: start;
@@ -126,7 +122,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     width: 40px;
     height: 40px;
     margin-top: 15px;
-    margin-left: 200px;
+    margin-left: 185px;
     border-radius: 10px;
     border: 0px;
     background-image:url(1-IMAGENES/btn-contact.png);
