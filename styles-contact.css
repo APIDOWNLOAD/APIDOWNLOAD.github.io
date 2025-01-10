@@ -1,0 +1,92 @@
+body{
+    display: flexbox;
+    background-color: #e5ddd5;
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows:repeat(1,400px) ;
+    gap: 160px;
+    width: 760px;
+    height: 440px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: 0px;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+.perfiles-leo>ul>li:nth-child(4){
+    font-size: 12px;
+}
+.perfiles-arlex>ul>li:nth-child(4){
+    font-size: 12px;
+}
+.contenedor>div{
+width: 300;
+height: 400px;
+background-color: white;
+margin-top: 20px;
+border-radius: 15px;
+}
+
+.perfiles-leo{
+margin-left: 30px;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    grid-column: span 2;
+    background-color: white;
+}
+.encabezado>h2{
+    margin-left: 500px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.encabezado>button{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: 0px solid;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px #b9b9b9;
+    transition: box-shadow 0.8s ease;
+}
+.encabezado>button:hover{
+    box-shadow: 0px 1px 10px 0px #258bf1;
+}
+.fotoleo{
+    width: 245px;
+    height: 250px;
+    background-color: bisque;
+    border-radius: 15px;
+    margin: 12px;
+}
+.fotoarlex{
+    
+        width: 245px;
+        height: 250px;
+        background-color: bisque;
+        border-radius: 15px;
+        margin: 12px;
+}
+.perfiles-arlex{
+    width: 270px;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
+ul{
+    margin-top: 10px;
+    width: 190px;
+    height: 60px;
+}
